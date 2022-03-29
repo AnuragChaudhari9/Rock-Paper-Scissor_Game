@@ -12,14 +12,14 @@ def rps(comp,mine):
     else:
         return False
 
-choice=('r','p','s')
-comp=random.randint(0,2)
+choice = ('r','p','s')
+comp = random.randint(0,2)
 comp = choice[comp]
 mine = input('''
 r = rock
 p = paper
 s= scissor
-Choose either r, p, s: ''')
+Choose from r, p, s: ''')
 
 print('Your choice:',mine)
 print('My choice:',comp)
